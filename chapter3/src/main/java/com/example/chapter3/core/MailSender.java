@@ -1,8 +1,9 @@
-package com.yuqiyu.chapter7.core;
+package com.example.chapter3.core;
 
-import com.yuqiyu.chapter7.entity.MailEntity;
-import com.yuqiyu.chapter7.enums.MailContentTypeEnum;
-import com.yuqiyu.chapter7.utils.PropertiesUtil;
+
+import com.example.chapter3.entity.MailEntity;
+import com.example.chapter3.enums.MailContentTypeEnum;
+import com.example.chapter3.utils.PropertiesUtil;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
@@ -74,8 +75,9 @@ public class MailSender {
     public void send() throws Exception
     {
         //默认使用html内容发送
-        if(mail.getContentType() == null)
+        if (mail.getContentType() == null) {
             mail.setContentType(MailContentTypeEnum.HTML.getValue());
+        }
 
         if(mail.getTitle() == null || mail.getTitle().trim().length() == 0)
         {
@@ -109,6 +111,7 @@ public class MailSender {
 
         // 构建授权信息，用于进行SMTP进行身份验证
         Authenticator authenticator = new Authenticator() {
+            @Override
             protected PasswordAuthentication getPasswordAuthentication() {
                 // 用户名、密码
                 String userName = props.getProperty("mail.user");

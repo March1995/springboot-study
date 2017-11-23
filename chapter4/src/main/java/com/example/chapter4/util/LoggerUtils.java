@@ -1,17 +1,8 @@
-package com.yuqiyu.chapter8.util;
+package com.example.chapter4.util;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * 项目名称：HengYuLogger
- * 项目版本：V1.0
- * 包名称：com.hengyu.logger
- * 创建人：yuqy
- * 创建时间：2017/3/29 18:24
- * 修改人：yuqy
- * 修改时间：2017/3/29 18:24
- * 修改备注：
- */
+
 public final class LoggerUtils {
 
     public static final String LOGGER_RETURN = "_logger_return";

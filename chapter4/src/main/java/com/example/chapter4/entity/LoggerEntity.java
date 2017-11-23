@@ -1,4 +1,4 @@
-package com.yuqiyu.chapter8.entity;
+package com.example.chapter4.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;

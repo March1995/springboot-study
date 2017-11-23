@@ -1,21 +1,13 @@
-package com.yuqiyu;
+package com.example.chapter4.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/11
- * Time：20:55
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
+
 @Configuration
-public class Chapter9Configuration extends WebMvcConfigurerAdapter
+public class ResourceFilterConfigration extends WebMvcConfigurerAdapter
 {
     //自定义静态资源文件路径
     @Override

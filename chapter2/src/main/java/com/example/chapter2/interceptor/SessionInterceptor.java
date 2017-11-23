@@ -1,4 +1,4 @@
-package com.yuqiyu.chapter6;
+package com.example.chapter2.interceptor;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -7,13 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/7
- * Time：21:38
- * 码云：http://git.oschina.net/jnyqy
- * ========================
+ * lanjieqi
  */
 public class SessionInterceptor implements HandlerInterceptor
 {

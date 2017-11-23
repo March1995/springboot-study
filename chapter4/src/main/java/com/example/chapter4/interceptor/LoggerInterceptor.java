@@ -1,10 +1,10 @@
-package com.yuqiyu;
+package com.example.chapter4.interceptor;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.yuqiyu.chapter8.entity.LoggerEntity;
-import com.yuqiyu.chapter8.jpa.LoggerJPA;
-import com.yuqiyu.chapter8.util.LoggerUtils;
+import com.example.chapter4.entity.LoggerEntity;
+import com.example.chapter4.jpa.LoggerJPA;
+import com.example.chapter4.util.LoggerUtils;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 import org.springframework.web.servlet.HandlerInterceptor;
@@ -13,15 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/10
- * Time：21:10
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
+
 public class LoggerInterceptor implements HandlerInterceptor
 {
     //请求开始时间标识

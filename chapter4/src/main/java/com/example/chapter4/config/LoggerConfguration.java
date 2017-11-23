@@ -1,6 +1,6 @@
-package com.yuqiyu.chapter8;
+package com.example.chapter4.config;
 
-import com.yuqiyu.LoggerInterceptor;
+import com.example.chapter4.interceptor.LoggerInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;

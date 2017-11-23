@@ -1,6 +1,6 @@
-package com.yuqiyu;
+package com.example.chapter2.config;
 
-import com.yuqiyu.chapter6.SessionInterceptor;
+import com.example.chapter2.interceptor.SessionInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;

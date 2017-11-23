@@ -1,18 +1,10 @@
-package com.yuqiyu.chapter7.utils;
+package com.example.chapter3.utils;
 
 import java.util.Enumeration;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/8
- * Time：20:24
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
+
 public class PropertiesUtil {
     private final ResourceBundle resource;
     private final String fileName;

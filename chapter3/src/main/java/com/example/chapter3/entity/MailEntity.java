@@ -1,18 +1,10 @@
-package com.yuqiyu.chapter7.entity;
+package com.example.chapter3.entity;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/8
- * Time：20:19
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
+
 public class MailEntity implements Serializable{
     //此处填写SMTP服务器
     private String smtpService;

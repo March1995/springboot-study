@@ -1,6 +1,6 @@
-package com.yuqiyu.lessonthree.jpa;
+package com.example.chapter2.jpaDao;
 
-import com.yuqiyu.lessonthree.entity.UserEntity;
+import com.example.chapter2.modle.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
@@ -15,8 +15,5 @@ import java.io.Serializable;
  * 码云：http://git.oschina.net/jnyqy
  * ========================
  */
-public interface UserJPA extends
-        JpaRepository<UserEntity, Long>,
-        JpaSpecificationExecutor<UserEntity>,
-        Serializable{
+public interface UserJPA extends JpaRepository<UserEntity, Long>, JpaSpecificationExecutor<UserEntity>, Serializable{
 }

@@ -1,7 +1,7 @@
-package com.yuqiyu.chapter6.controller;
+package com.example.chapter2.controller;
 
-import com.yuqiyu.chapter6.entity.UserEntity;
-import com.yuqiyu.chapter6.jpa.UserJPA;
+import com.example.chapter2.jpaDao.UserJPA;
+import com.example.chapter2.modle.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,15 +13,6 @@ import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/7
- * Time：21:17
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
 @RestController
 @RequestMapping(value = "/user")
 public class LoginController {
@@ -30,7 +21,7 @@ public class LoginController {
     private UserJPA userJPA;
 
     @RequestMapping(value = "/login")
-    public String login(UserEntity user, HttpServletRequest request)
+    public String login(final UserEntity user, HttpServletRequest request)
     {
         //登录成功
         boolean flag = true;

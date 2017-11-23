@@ -1,7 +1,7 @@
-package com.yuqiyu.lessonthree.controller;
+package com.example.chapter2.controller;
 
-import com.yuqiyu.lessonthree.entity.UserEntity;
-import com.yuqiyu.lessonthree.jpa.UserJPA;
+import com.example.chapter2.jpaDao.UserJPA;
+import com.example.chapter2.modle.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -9,15 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/4
- * Time：15:36
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
+
 @RestController
 @RequestMapping(value = "/user")
 public class UserController {

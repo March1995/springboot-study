@@ -1,4 +1,4 @@
-package com.yuqiyu;
+package com.example.chapter2.config;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;
@@ -7,15 +7,7 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/5
- * Time：21:46
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
+
 @Configuration
 public class DruidConfiguration {
 

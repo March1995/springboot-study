@@ -1,18 +1,9 @@
-package com.yuqiyu.chapter6.controller;
+package com.example.chapter2.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/7
- * Time：21:41
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
 @Controller
 @RequestMapping("/user")
 public class IndexController {

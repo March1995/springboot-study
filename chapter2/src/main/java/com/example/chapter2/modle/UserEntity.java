@@ -1,17 +1,8 @@
-package com.yuqiyu.lessonthree.entity;
+package com.example.chapter2.modle;
 
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/4
- * Time：15:38
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
 @Entity
 @Table(name = "t_user")
 public class UserEntity implements Serializable
@@ -30,6 +21,10 @@ public class UserEntity implements Serializable
 
     @Column(name = "t_address")
     private String address;
+
+    @Column(name = "t_pwd")
+    private String pwd;
+
 
     public Long getId() {
         return id;
@@ -61,5 +56,13 @@ public class UserEntity implements Serializable
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getPwd() {
+        return pwd;
+    }
+
+    public void setPwd(String pwd) {
+        this.pwd = pwd;
     }
 }

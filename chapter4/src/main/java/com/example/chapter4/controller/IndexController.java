@@ -1,7 +1,7 @@
-package com.yuqiyu.chapter8.controller;
+package com.example.chapter4.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.yuqiyu.chapter8.util.LoggerUtils;
+import com.example.chapter4.util.LoggerUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
