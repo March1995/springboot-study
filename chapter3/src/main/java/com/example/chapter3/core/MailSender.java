@@ -12,14 +12,9 @@ import javax.mail.internet.MimeUtility;
 import java.util.List;
 import java.util.Properties;
 
+
 /**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/8
- * Time：20:22
- * 码云：http://git.oschina.net/jnyqy
- * ========================
+ * @author Kunzite
  */
 public class MailSender {
     //邮件实体

@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+/**
+ * @author Kunzite
+ */
 public class MailEntity implements Serializable{
     //此处填写SMTP服务器
     private String smtpService;
