@@ -1,6 +1,6 @@
-package com.yuqiyu.chapter15.entity;
+package com.example.chapter4.entity;
 
-import com.yuqiyu.chapter15.validator.FlagValidator;
+import com.example.chapter4.validator.FlagValidator;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotBlank;

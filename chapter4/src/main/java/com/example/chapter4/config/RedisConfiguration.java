@@ -1,4 +1,4 @@
-package com.yuqiyu.chapter16;
+package com.example.chapter4.config;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.CachingConfigurerSupport;

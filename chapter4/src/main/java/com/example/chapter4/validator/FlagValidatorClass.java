@@ -1,4 +1,4 @@
-package com.yuqiyu.chapter15.validator;
+package com.example.chapter4.validator;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
