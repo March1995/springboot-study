@@ -12,13 +12,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import java.lang.reflect.Method;
 
 /**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/17
- * Time：22:51
- * 码云：http://git.oschina.net/jnyqy
- * ========================
+ * @author Kunzite
  */
 @Configuration
 @EnableCaching

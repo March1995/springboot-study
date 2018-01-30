@@ -4,15 +4,7 @@ import javax.validation.Constraint;
 import javax.validation.Payload;
 import java.lang.annotation.*;
 
-/**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/16
- * Time：16:47
- * 码云：http://git.oschina.net/jnyqy
- * ========================
- */
+
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.PARAMETER, ElementType.FIELD})

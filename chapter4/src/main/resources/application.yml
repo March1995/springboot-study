@@ -1,6 +1,6 @@
 logging:
   level:
-    com.yuqiyu.chapter12.controller: 'off'
+    com.example.chapter4.controller: 'off'
 
 spring:
   datasource:
@@ -46,4 +46,4 @@ spring:
       min-idle: 1
       max-active: 20
       max-wait: 60000
-    database: 0 #默认是索引为的0的数据库
+  database: 0 #默认是索引为的0的数据库

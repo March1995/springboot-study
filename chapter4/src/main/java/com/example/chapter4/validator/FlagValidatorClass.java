@@ -4,13 +4,7 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
 /**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/16
- * Time：16:47
- * 码云：http://git.oschina.net/jnyqy
- * ========================
+ * @author Kunzite
  */
 public class FlagValidatorClass implements ConstraintValidator<FlagValidator, Object> {
 

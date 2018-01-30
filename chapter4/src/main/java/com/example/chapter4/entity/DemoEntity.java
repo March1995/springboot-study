@@ -9,13 +9,7 @@ import javax.validation.constraints.Min;
 import java.io.Serializable;
 
 /**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/16
- * Time：16:03
- * 码云：http://git.oschina.net/jnyqy
- * ========================
+ * @author Kunzite
  */
 public class DemoEntity implements Serializable
 {
