@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 
+/**
+ * @author Kunizte
+ */
 @RestController
 @RequestMapping(value = "/user")
 public class UserController {
