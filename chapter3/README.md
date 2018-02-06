@@ -1,1 +1,1 @@
-## 6.SpringBoot整合JavaMail发送邮件
+## 8.SpringBoot整合JavaMail发送邮件
