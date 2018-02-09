@@ -12,6 +12,6 @@ public class ResourceFilterConfigration extends WebMvcConfigurerAdapter
     //自定义静态资源文件路径
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/example/chapter4/resources/**").addResourceLocations("classpath:/static/");
+        registry.addResourceHandler("/11/**").addResourceLocations("classpath:/static/");
     }
 }
