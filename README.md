@@ -6,8 +6,8 @@
 - [3.开启Druid监控功能](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter2)
 - [4.配置使用FastJson返回Json视图](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter2)
 - [5.如何在SpringBoot项目中使用拦截器](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter2)
-- [6：SpringBoot整合JavaMail发送邮件](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter2)
-- [7: SpringBoot整合jsp](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter2)
+- [6.SpringBoot整合JavaMail发送邮件](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter2)
+- [7.SpringBoot整合jsp](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter2)
 ## chapter3
 - [8.SpringBoot整合JavaMail发送邮件](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter3)
 ## chapter4
