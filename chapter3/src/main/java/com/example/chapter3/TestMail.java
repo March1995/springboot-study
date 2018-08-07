@@ -15,7 +15,7 @@ public class TestMail {
                 .content("简单文本内容发送")
                 .contentType(MailContentTypeEnum.TEXT)
                 .targets(new ArrayList<String>(){{
-                    add("jnyuqy@dingtalk.com");
+                    add("1501987783@qq.com");
                 }})
                 .send();
     }
