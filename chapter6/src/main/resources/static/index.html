@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>测试跨域</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#cors").click(function () {
+                $.ajax({
+                    url:"http://127.0.0.1:8080/cors",
+                    success:function (data) {
+                        alert(data)
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <input type="button" id="cors" value="测试">
+</body>
+</html>

@@ -3,11 +3,15 @@ package com.example.chapter2.modle;
 import javax.persistence.*;
 import java.io.Serializable;
 
+/**
+ * @author Kunzite
+ */
 @Entity
 @Table(name = "t_user")
 public class UserEntity implements Serializable
 {
 
+    private static final long serialVersionUID = -4921472233707430967L;
     @Id
     @GeneratedValue
     @Column(name = "t_id")

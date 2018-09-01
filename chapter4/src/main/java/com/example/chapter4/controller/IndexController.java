@@ -18,13 +18,7 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * ========================
- * Created with IntelliJ IDEA.
- * User：恒宇少年
- * Date：2017/4/10
- * Time：21:46
- * 码云：http://git.oschina.net/jnyqy
- * ========================
+ * @author Kunzite
  */
 @RestController
 @RequestMapping(value = "/index")

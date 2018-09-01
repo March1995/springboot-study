@@ -17,3 +17,6 @@
 - [12.使用SpringBoot validator让数据更真实](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter4)
 ## chapter5
 - [13.自定义maven-starter和注解添加配置文件进入IOC](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter5)
+## chapter6
+- [14.跨域访问](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter6)
+- [15.SpringBoot使用ApplicationEvent&Listener完成业务解耦](https://github.com/MarchNineteen/springbootStudy/tree/master/chapter6)
