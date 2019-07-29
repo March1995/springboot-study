@@ -1,4 +1,4 @@
-## 13.自定义maven-starter和注解添加配置文件进入IOC
+## 自定义maven-starter和注解添加配置文件进入IOC
 
 ### 一：自定义maven-starter
 
