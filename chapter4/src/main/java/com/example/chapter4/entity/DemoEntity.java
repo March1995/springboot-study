@@ -13,18 +13,18 @@ import java.io.Serializable;
  */
 public class DemoEntity implements Serializable
 {
-    @NotBlank
+    @NotBlank(groups = Update.class)
     @Length(min = 2,max = 10)
     private String name;
 
-    @Min(value = 1)
+    @Min(value = 1, groups = Update.class)
     private int age;
 
-    @NotBlank
+    @NotBlank(groups = Save.class)
     @Email
     private String mail;
 
-    @FlagValidator(values = "1,2,3")
+    @FlagValidator(values = "1,2,3", groups = Update.class)
     private String flag;
 
     public String getName() {
@@ -57,5 +57,17 @@ public class DemoEntity implements Serializable
 
     public void setFlag(String flag) {
         this.flag = flag;
+    }
+
+    /**
+     * 保存的时候校验分组
+     */
+    public interface Save {
+    }
+
+    /**
+     * 更新的时候校验分组
+     */
+    public interface Update {
     }
 }

@@ -5,3 +5,5 @@
 ## 使用Redis作为SpringBoot项目数据缓存
 
 ## 使用SpringBoot validator让数据更真实
+
+> https://mp.weixin.qq.com/s/Vmbp5jEm_aKfo_O20gZqcg
