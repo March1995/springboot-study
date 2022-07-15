@@ -1,3 +1,28 @@
 my:
   name: admin
   phone: 12345678911
+
+
+spring:
+  wyb:
+    datasource:
+      mysql:
+        #      type: com.alibaba.druid.pool.DruidDataSourc
+        db-type: mysql
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://192.168.8.203:3306/sinozur_integrate_manager?characterEncoding=utf-8&serverTimezone=UTC&useSSL=false&allowMultiQueries=true
+        username: root
+        password: root
+      mysql_2:
+        #      type: com.alibaba.druid.pool.DruidDataSource
+        db-type: mysql
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://192.168.8.203:3306/sinozur_integrate_manager?characterEncoding=utf-8&serverTimezone=UTC&useSSL=false&allowMultiQueries=true
+        username: root
+        password: root
+      oracle:
+        db-type: oracle
+        driver-class-name:
+        url:
+        username:
+        password:
